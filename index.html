@@ -58,7 +58,7 @@
             <br>
             <h1>CV</h1>
             <p>
-                <a href="CV_Jiajia_Li.pdf" target="_blank" download>Download my CV (PDF)</a>
+                <button onclick="openCV()">View my CV (PDF)</button>
             </p>
         </section>
     </div>
@@ -67,7 +67,11 @@
         <p>© 2025 Jiajia Li</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function openCV() {
+            window.open('CV_Jiajia_Li.pdf', '_blank', 'width=800', 'height=600');
+        }
+    </script>
 </body>
 
 </html>
